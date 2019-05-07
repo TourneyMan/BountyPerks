@@ -1,0 +1,59 @@
+main: tourneyman.bounty.Main
+name: BountyPerks
+version: 1.1
+author: tourney_man
+description: Adds a bounty system to a Mincraft server with an economy plugin
+depend: [Vault]
+commands:
+  BountyGuide:
+    description: Gives an overview of the Bounty Perks plugin
+    usage: /bountyguide
+  BountyInfo:
+    description: Gives a list of the Bounty ranks and perks
+    usage: /bountyinfo
+  Bounty:
+    description: Tells you what someone's bounty is
+    usage: /bounty {Player Name}
+  BountyRank:
+    description: Tells you what someone's bounty rank is
+    usage: /bountyrank {Player Name}
+  MyBounty:
+    description: Tells you what your bounty is
+    usage: /mybounty
+  MyBountyRank:
+    description: Tells you what your bounty rank is
+    usage: /mybountyrank
+  AddBounty:
+    description: Add a bounty to another player
+    usage: /addbounty {Player Name} {Amount}
+  TopBounty:
+    description: View the players with the top bounties
+    usage: /topbounty
+  BountyTrack:
+    description: Helps you track down a player (varies depending on their bounty rank)
+    usage: /bountytrack {Player Name}
+  SetBounty:
+    description: Sets a player's bounty
+    usage: /setbounty {Player Name} {Amount}
+    permission: bounty.setbounty
+    permission-message: You don't have the bounty.setbounty permission.
+  SetBountyPerKill:
+    description: Sets the amount a player's bounty goes up when they kill another player
+    usage: /setbountyperkill {Amount}
+    permission: bounty.setbountyperkill
+    permission-message: You don't have the bounty.setbountyperkill permission.
+  ToggleMobPay:
+    description: Toggles whether or not players get paid for killing mobs
+    usage: /togglemobpay
+    permission: bounty.togglemobpay
+    permission-message: You don't have the bounty.togglemobpay permission.
+  ToggleMobMessages:
+    description: Toggles whether or not players are notified when they get paid for killing mobs
+    usage: /togglemobmessages
+    permission: bounty.togglemobmessages
+    permission-message: You don't have the bounty.togglemobmessages permission.
+  ChangeRankAmount:
+    description: Changes bounty amount needed for a rank
+    usage: /changerankamount {rank name without spaces} {new amount}
+    permission: bounty.changerankamount
+    permission-message: You don't have the bounty.changerankamount permission.  

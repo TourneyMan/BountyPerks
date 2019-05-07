@@ -1,0 +1,55 @@
+AddBountyPerKill: 2000
+PayForMobKills: false
+MobKillMessages: true
+BountyLevel:
+  rebel: 1000
+  pettycriminal: 2500
+  bandit: 5000
+  rogue: 10000
+  ruffian: 25000
+  thug: 50000
+  outlaw: 100000
+  hitman: 175000
+  mafiaboss: 300000
+MobMoney:
+  Chicken: 0
+  Pig: 0
+  Cow: 0
+  Sheep: 0
+  Creeper: 20
+  Skeleton: 10
+  Zombie: 10
+  Enderman: 10
+  Spider: 10
+  Bat: 0
+  Blaze: 20
+  CaveSpider: 10
+  ChestedHorse: 0
+  Donkey: 0
+  ElderGuardian: 1000
+  EnderDragon: 1000
+  Endermite: 10
+  Ghast: 50
+  Giant: 250
+  Guardian: 100
+  Horse: 0
+  IronGolem: 0
+  Llama: 0
+  MagmaCube: 10
+  Mule: 0
+  MushroomCow: 0
+  Ocelot: 0
+  PigZombie: 10
+  PolarBear: 0
+  Rabbit: 0
+  Silverfish: 10
+  SkeletonHorse: 0
+  Slime: 10
+  Snowman: 0
+  Squid: 0
+  Witch: 30
+  Wither: 1000
+  WitherSkeleton: 30
+  Wolf: 0
+  ZombieHorse: 0
+  ZombieVillager: 0
